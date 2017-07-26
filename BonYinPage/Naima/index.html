@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="icon" href="favicon.ico">
+    <!-- Title -->
+    <title>邦盈出国事务咨询有限公司</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="images/fevicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font awesome CSS -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- OwlCarousel CSS -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <!-- Magnific popup CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Main Menu CSS -->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-1.11.3.min.js"></script>
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+    <!-- prelaoder start -->
+    <div id="preloader-wrapper">
+        <div class="preloader-wave-effect"></div>
+    </div>
+    <!-- prelaoder end -->
+    <!--   header area start -->
+    <header>
+        <div class="menu-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo/white-logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 text-right">
+                        <!-- main menu start-->
+                        <div class="main-menu">
+                            <nav>
+                                <ul>
+                                    <li><a href="index.html">首页</a></li>
+                                    <li><a href="rmgj.html">热门国家</a></li>
+                                    <li><a hrekf="ymxm.html">移民项目</a></li>
+                                    <li><a href="#">海外房产</a></li>
+                                    <li><a href="#">海外医疗</a></li>
+                                    <li><a href="#">签证代办</a></li>
+                                    <li><a href="about.html">关于我们</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- main menu end-->
+                        <div class="mobile-menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="contact" class="contact-section" style="display:none;z-index: 2;top: 100px">
+        <div class="contact-box-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="contact-box">
+                            <form id="contact-form" class="form-group" method="POST" action="mail.php">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" name="name" id="name" placeholder="姓名" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input name="lastname" type="text" placeholder="电话" required>
+                                    </div>
+                                </div>
+
+                                <button class="submit" type="submit" onclick="displayContact()">提交信息</button>
+                            </form>
+                            <p class="form-messege"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--   header area end -->
+    <!--   hero area start -->
+    <div class="hero-area">
+        <div class="particles-js" id="particles-js"></div>
+        <div class="slider">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="hero-text">
+                            <h2 class="wow fadeInUp">邦盈海外</h2>
+                            <p class="wow fadeInUp">做最好的服务，互联网时代最专业的出国专家.</p>
+                            <a href="javascript:return false;" onclick="displayContact()" class="hero-btn wow fadeInLeft">与专家交流</a>
+                            <a href="about.html" class="hero-btn wow fadeInRight">关于我们</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="slider-thumb wow fadeInRight">
+                        <!--<img src="assets/img/bg/2.jpg" alt="">-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  hero area end -->
+
+
+    <div class="row" style=" margin-top: 25px;">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="team-title text-center">
+                <h2>热门国家</h2>
+                <p>帮您全方位了解移民国家政策</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="team-area">
+            <div class="col-md-3 col-sm-6">
+                <div class="single-team wow fadeInLeft">
+                    <div class="team-img">
+                        <img src="assets/img/bg/bolan.jpg" alt="">
+                    </div>
+                    <div class="team-info">
+                        <h3>波兰</h3>
+                        <span>地处欧洲中心地带</span>
+                        <p>社会稳定、气候宜人、环境优雅。教育免费，有优厚的医疗福利，申请简单，获得居留卡居留时间长</p>
+                        <a href="rmgj.html" class="team-bio">了解详情</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="single-team">
+                    <div class="team-img">
+                        <img src="assets/img/bg/jianada.jpg" alt="">
+                    </div>
+                    <div class="team-info">
+                        <h3>加拿大</h3>
+                        <span>避税天堂</span>
+                        <p>政策稳定、审理速度快、承认双重国籍、避税天堂、 门槛低、永久产权房产</p>
+                        <a href="rmgj.html" class="team-bio">了解详情</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="single-team">
+                    <div class="team-img">
+                        <img src="assets/img/bg/aozhou.jpg" alt="">
+                    </div>
+                    <div class="team-info">
+                        <h3>澳洲</h3>
+                        <span>一人申请，四代移民</span>
+                        <p>批复周期短的护照项目，3-6个月快速获批，申请条件简单，高签约成功率</p>
+                        <a href="rmgj.html" class="team-bio">了解详情</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="single-team wow fadeInRight">
+                    <div class="team-img">
+                        <img src="assets/img/bg/meiguo.jpg" alt="">
+                    </div>
+                    <div class="team-info">
+                        <h3>美国</h3>
+                        <span>避税天堂</span>
+                        <p>同时获得护照和永居身份，无需第三国身份、合法入籍英联邦</p>
+                        <a href="rmgj.html" class="team-bio">了解详情</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-padding gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="team-title text-center">
+                        <h2>热门项目</h2>
+                        <!--<p></p>-->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="team-area">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-team wow fadeInLeft">
+                            <div class="team-img">
+                                <img src="assets/img/team/team-1.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>保加利亚</h3>
+                                <span>申请周期快</span>
+                                <p>保加利亚投资移民优势是便宜，是移民欧洲发达国家很好的跳板</p>
+                                <a href="#" class="team-bio">了解详情</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-team">
+                            <div class="team-img">
+                                <img src="assets/img/team/team-2.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>圣基茨</h3>
+                                <span>避税天堂</span>
+                                <p>政策稳定、审理速度快、承认双重国籍、避税天堂、 门槛低、永久产权房产</p>
+                                <a href="#" class="team-bio">了解详情</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-team">
+                            <div class="team-img">
+                                <img src="assets/img/team/team-3.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>安提瓜</h3>
+                                <span>一人申请，四代移民</span>
+                                <p>批复周期短的护照项目，3-6个月快速获批，申请条件简单，高签约成功率</p>
+                                <a href="#" class="team-bio">了解详情</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-team wow fadeInRight">
+                            <div class="team-img">
+                                <img src="assets/img/team/team-4.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>格林纳达</h3>
+                                <span>避税天堂</span>
+                                <p>同时获得护照和永居身份，无需第三国身份、合法入籍英联邦</p>
+                                <a href="#" class="team-bio">了解详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--blog section start-->
+    <div id="blog" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="section-title text-center wow fadeInUp">
+                        <h2>海外医疗</h2>
+                        <p>提供国外优质医疗咨询</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-blog-box wow fadeInUp">
+                        <div class="blog-box-bg blog-bg-1"></div>
+                        <div class="blog-conent">
+                            <p class="blog-meta">
+                                <span><a href=""><i class="fa fa-user"></i>Imran Hossain</a></span>
+                                <span><i class="fa fa-calendar"></i> 10 April, 2017</span>
+                            </p>
+                            <h3>A short guide to Talking About</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.consectetur adipisicing elit.</p>
+                            <a href="#" class="blog-readmore-btn">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-blog-box wow fadeInUp">
+                        <div class="blog-box-bg blog-bg-2"></div>
+                        <div class="blog-conent">
+                            <p class="blog-meta">
+                                <span><a href=""><i class="fa fa-user"></i>Imran Hossain</a></span>
+                                <span><i class="fa fa-calendar"></i> 10 April, 2017</span>
+                            </p>
+                            <h3>A short guide to Talking About</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.consectetur adipisicing elit.</p>
+                            <a href="#" class="blog-readmore-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-blog-box wow fadeInUp">
+                        <div class="blog-box-bg blog-bg-3"></div>
+                        <div class="blog-conent">
+                            <p class="blog-meta">
+                                <span><a href=""><i class="fa fa-user"></i>Imran Hossain</a></span>
+                                <span><i class="fa fa-calendar"></i> 10 April, 2017</span>
+                            </p>
+                            <h3>A short guide to Talking About</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.consectetur adipisicing elit.</p>
+                            <a href="#" class="blog-readmore-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--blog section end-->
+
+    <!--feature-videos Start-->
+    <div class="section-padding video-bg">
+        <div class="feature-videos text-center">
+            <a href="https://www.youtube.com/watch?v=irhHi9BaVz0" class="mfp-iframe video-play"><i class="fa fa-play"></i></a>
+        </div>
+    </div>
+    <!--feature-videos end-->
+    <!-- about app start-->
+    <div class="section-padding about-section gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="section-title">
+                        <h2>关于我们</h2>
+                        <h3>邦盈出国事务咨询有限公司</h3>
+                        <p>为公民出国定居、探亲、访友、和其它非公务活动提供信息介绍、沟通联系、境外安排、移民签证申办及相关的服务。 也是首先提出行业内的互联网+的概念，为客户提供个性化私人订制方案的专业顾问公司；首个为高净值客户提供海外医疗、养老领域服务的专业顾问公司。
+                        </p>
+                        <p>公司拥有专业团队、丰富移民经验、朝气蓬勃的发展精神，顺应时代潮流，为客户提供全方位多元化一站式专业化服务，我们努力打造“customerized service”一对一服务，为每位客户量身订制最适合的方案。</p>
+                        <p>公司秉承专业用心，服务至上的经营理念，做到信息不隐瞒，踏实真实做服务，为客户带来放心安心的用户体验， 我们的愿景---帮助每位客户提供最适合的出国移民方案，帮助每位客户海内外全球合理资产配置，保盈持泰。
+                        </p>
+                        <div class="about-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="about-app">
+                        <img src="assets/img/bg/guomao.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--about app work end-->
+    <!--footer section start-->
+    <div class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-text">
+                        <p>Copyright @ 2017 邦盈出国事务有限公司.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-menu">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">索邦移民 </a></li>
+                                <li><a href="index.html">海外家园</a></li>
+                                <li><a href="index.html">海外房产</a></li>
+                                <li><a href="index.html">Privacy Policy</a></li>
+                                <li><a href="index.html">Licenses</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer section start-->
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Magnific Popup JS -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- OwlCarousel JS -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- WOW JS -->
+    <script src="assets/js/wow-1.3.0.min.js"></script>
+    <!-- Waypoint JS -->
+    <script src="assets/js/waypoints.js"></script>
+    <!-- Ajaxchimp JS -->
+    <script src="assets/js/ajaxchimp.js"></script>
+    <!-- Ajax Mail JS -->
+    <script src="assets/js/ajax-mail.js"></script>
+    <!-- Counter Up  JS -->
+    <script src="assets/js/counterup.min.js"></script>
+    <!-- google map api -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBy3tyin_u6qIdt1Z82yv3mOUcgjaVtRi0"></script>
+    <!-- gmap js-->
+    <script src="assets/js/map.js"></script>
+    <!-- main menu js-->
+    <script src="assets/js/jquery.meanmenu.js"></script>
+    <!-- scrollUp js-->
+    <script src="assets/js/jquery.scrollUp.js"></script>
+    <!-- easing js-->
+    <script src="assets/js/easing-min.js"></script>
+    <!-- particles js-->
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/particles-app.js"></script>
+    <!-- Active JS -->
+    <script src="assets/js/active.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
