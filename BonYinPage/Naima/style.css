@@ -304,6 +304,20 @@ Hero Area
     margin-right: 15px;
 }
 
+.more-btn {
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid rgba(4, 151, 254, .80);
+    padding: 13px 29px;
+    border-radius: 50px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
 .btn-active {
     background-color: rgba(4, 151, 254, .80);
     color: #fff;
