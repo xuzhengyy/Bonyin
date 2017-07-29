@@ -1046,10 +1046,35 @@ Blog section
 
 .blog-box-bg {
     border-bottom: 0px solid;
+    margin-bottom: 15px;
 }
 
-.blog-bg-1 {
-    background-image: url(assets/img/blog/blog-1.jpg);
+.blog-bg-putaoya {
+    background-image: url(assets/img/blog/putaoya.jpg);
+}
+
+.blog-bg-germany {
+    background-image: url(assets/img/blog/germany.jpg);
+}
+
+.blog-bg-Portugal {
+    background-image: url(assets/img/blog/Portugal.jpg);
+}
+
+.blog-bg-spannish {
+    background-image: url(assets/img/blog/spannish.jpg);
+}
+
+.blog-bg-baojia {
+    background-image: url(assets/img/blog/baojia.jpg);
+}
+
+.blog-bg-shenjici {
+    background-image: url(assets/img/blog/shenjici.jpg);
+}
+
+.blog-bg-antigua {
+    background-image: url(assets/img/blog/antigua.jpg);
 }
 
 .blog-bg-2 {
@@ -1388,7 +1413,7 @@ Blog Sections
 *************/
 
 .breadcrumb-area {
-    background-image: url(assets/img/bg/head.jpg);
+    background-image: url(assets/img/bg/banner.jpg);
     background-position: center center;
     background-size: cover;
     height: 350px;
