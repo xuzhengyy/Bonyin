@@ -1372,8 +1372,8 @@ Footer area start
 
 .footer-area {
     background: #2B323F;
-    padding-top: 18em;
-    padding-bottom: 55px;
+    padding-top: 4em;
+    padding-bottom: 5px;
 }
 
 .footer-text {
@@ -1385,8 +1385,8 @@ Footer area start
 }
 
 .footer-menu {
-    text-align: right;
-    margin-top: 90px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .footer-menu ul {
